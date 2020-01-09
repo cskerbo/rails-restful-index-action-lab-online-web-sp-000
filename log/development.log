@@ -179,3 +179,11 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 382ms (Views: 373.6ms | ActiveRecord: 2.9ms)
 
 
+Started GET "/students" for 73.140.242.122 at 2020-01-09 07:36:44 +0000
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.3ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
